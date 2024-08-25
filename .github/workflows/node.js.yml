@@ -31,11 +31,7 @@ jobs:
         cache: 'yarn'
     - run: yarn
     - run: yarn build
-    - run: tar \
-          --dereference --hard-dereference \
-          --directory ./dist \
-          -cvf ./artifact.tar \
-          .
+    - run: tar cvf /artifact.tar --dereference --hard-dereference --directory ./dist .
     - uses: actions/upload-artifact@v4
       with:
         name: github-pages
