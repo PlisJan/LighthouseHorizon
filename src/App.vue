@@ -9,6 +9,11 @@ import LightPoint from './components/LightPoint.vue'
 
 const el = ref<HTMLElement | null>(null)
 
+const posInputs = ref<{ lat: number; lon: number }>({
+  lat: 47.8031492759155,
+  lon: -4.374060505059933
+})
+
 const movedM = ref(0)
 // `style` will be a helper computed for `left: ?px; top: ?px;`
 const { x, y, style } = useDraggable(el, {
@@ -19,14 +24,19 @@ watch(x, (newX) => {
   movedM.value += newX
 })
 
-const myPos: Position = new Position(48.09458309416971, -4.469361596098759)
+const myPos = ref<Position>(new Position(posInputs.value.lat, posInputs.value.lon))
 const lightHouseRefs = ref<any>([])
 
-const lightHouses = phareGeoJson.features
-  .map((feature) => Lighthouse.fromGeoJson(feature))
-  .filter(
-    (lighthouse) => lighthouse.pos.getDistanceFromLatLonInKm(myPos) < lighthouse.maxLightRange * 3
-  )
+const lightHouses = computed(() =>
+  phareGeoJson.features
+    .map((feature) => Lighthouse.fromGeoJson(feature))
+    .filter(
+      (lighthouse) =>
+        lighthouse.pos.getDistanceFromLatLonInKm(myPos.value) <
+        lighthouse.maxLightRange * 1.852 * 1.5
+    )
+    .filter((lighthouse) => lighthouse.name != 'Unknown')
+)
 </script>
 
 <template>
@@ -52,7 +62,6 @@ const lightHouses = phareGeoJson.features
         }"
       >
         <div class="lighthouseName">
-          {{ lightHouse.getSectorByViewingPosition(myPos)?.color }} --
           {{ lightHouse.pos.getDistanceFromLatLonInKm(myPos).toFixed(2) }} km -
           {{ lightHouse.name }}
         </div>
@@ -64,9 +73,74 @@ const lightHouses = phareGeoJson.features
       </div>
     </div>
   </main>
+  <footer>
+    <label for="lat">Latitude</label>
+    <input name="lat" v-model="posInputs.lat" placeholder="47.81173852663933" type="number" />
+    <label for="lon">Longitude</label>
+    <input name="lon" v-model="posInputs.lon" placeholder="-4.336981646486701" type="number" />
+    <button
+      @click="
+        () => {
+          myPos.lat = posInputs.lat
+          myPos.lon = posInputs.lon
+        }
+      "
+    >
+      Update Position
+    </button>
+    <div class="grow"></div>
+    <div>Current Position: {{ myPos.lat }}, {{ myPos.lon }}</div>
+  </footer>
 </template>
 
 <style scoped>
+footer {
+  width: 100svw;
+  height: 4rem;
+  position: fixed;
+  bottom: 0;
+  background-color: #282730;
+  display: flex;
+  padding: 1rem;
+  font-size: large;
+}
+
+footer .grow {
+  flex-grow: 1;
+}
+
+footer input {
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  background-color: #3c3b46;
+  color: white;
+  font-size: large;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+}
+footer button {
+  background-color: #007cff;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: large;
+  border-radius: 0.5rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+footer input::-webkit-outer-spin-button,
+footer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+footer input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 .horizon {
   width: 360svw;
   height: 100svh;
@@ -91,7 +165,7 @@ const lightHouses = phareGeoJson.features
   width: 5rem;
   height: 20rem;
   position: absolute;
-  top: 50%;
+  top: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;

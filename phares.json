@@ -2,8 +2,72 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2024-08-25T15:28:45Z",
+  "timestamp": "2024-08-26T07:03:45Z",
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40024237",
+        "building": "yes",
+        "height": "33",
+        "man_made": "lighthouse",
+        "name": "Phare de Penfret",
+        "name:br": "Tour-tan Kreñv Penfred",
+        "ref:FR:ANFR": "884132",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:height": "36",
+        "seamark:light:1:period": "5",
+        "seamark:light:1:range": "21",
+        "seamark:light:1:sector_end": "360",
+        "seamark:light:1:sector_start": "0",
+        "seamark:light:1:sequence": "0.2+(4.8)",
+        "seamark:light:2:character": "Q",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:height": "34",
+        "seamark:light:2:range": "12",
+        "seamark:light:2:sector_end": "315",
+        "seamark:light:2:sector_start": "295",
+        "seamark:light:reference": "D 0922",
+        "seamark:name": "Île de Penfret",
+        "seamark:radio_station:category": "ais",
+        "seamark:radio_station:mmsi": "992271014",
+        "seamark:type": "light_major",
+        "source": "ANFR 08/2019;©IGN 2010 dans le cadre de la cartographie réglementaire;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "start_date": "1911",
+        "wikidata": "Q2084976",
+        "wikipedia": "fr:Phare de Penfret"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.9528356,
+              47.7212486
+            ],
+            [
+              -3.953015,
+              47.7211769
+            ],
+            [
+              -3.9529148,
+              47.7210633
+            ],
+            [
+              -3.9527354,
+              47.721135
+            ],
+            [
+              -3.9528356,
+              47.7212486
+            ]
+          ]
+        ]
+      },
+      "id": "way/40024237"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -259,6 +323,387 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/77827625",
+        "building": "yes",
+        "man_made": "lighthouse",
+        "seamark:type": "light_major",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.3088139,
+              48.8367542
+            ],
+            [
+              -3.3088178,
+              48.8367578
+            ],
+            [
+              -3.3088233,
+              48.8367605
+            ],
+            [
+              -3.3088297,
+              48.8367619
+            ],
+            [
+              -3.3088365,
+              48.836762
+            ],
+            [
+              -3.308843,
+              48.8367606
+            ],
+            [
+              -3.3088485,
+              48.8367581
+            ],
+            [
+              -3.3088526,
+              48.8367545
+            ],
+            [
+              -3.3088547,
+              48.8367502
+            ],
+            [
+              -3.3088548,
+              48.8367458
+            ],
+            [
+              -3.3088528,
+              48.8367415
+            ],
+            [
+              -3.3088488,
+              48.8367378
+            ],
+            [
+              -3.3088434,
+              48.8367352
+            ],
+            [
+              -3.308837,
+              48.8367338
+            ],
+            [
+              -3.3088302,
+              48.8367337
+            ],
+            [
+              -3.3088237,
+              48.836735
+            ],
+            [
+              -3.3088181,
+              48.8367376
+            ],
+            [
+              -3.3088141,
+              48.8367412
+            ],
+            [
+              -3.3088119,
+              48.8367455
+            ],
+            [
+              -3.3088119,
+              48.8367499
+            ],
+            [
+              -3.3088139,
+              48.8367542
+            ]
+          ]
+        ]
+      },
+      "id": "way/77827625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/93055283",
+        "building": "yes",
+        "height": "82",
+        "heritage": "2",
+        "heritage:operator": "mhs",
+        "man_made": "lighthouse",
+        "mhs:inscription_date": "2011-05-23",
+        "name": "Phare de l'Île Vierge",
+        "name:br": "Tour-tan Enez Werc'h",
+        "name:en": "Lighthouse Île Vierge",
+        "ref:FR:ANFR": "1481973",
+        "ref:mhs": "PA29000071",
+        "seamark:construction": "masonry",
+        "seamark:fog_signal": "yes",
+        "seamark:fog_signal:group": "1",
+        "seamark:fog_signal:period": "60",
+        "seamark:landmark:colour": "brown",
+        "seamark:landmark:height": "83",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "77",
+        "seamark:light:1:period": "5",
+        "seamark:light:1:range": "27",
+        "seamark:light:1:sector_end": "325",
+        "seamark:light:1:sector_start": "337",
+        "seamark:light:1:sequence": "0.3+(4.7)",
+        "seamark:light:reference": "A 1822",
+        "seamark:name": "Île Vierge",
+        "seamark:radio_station:category": "ais",
+        "seamark:radio_station:mmsi": "992271317",
+        "seamark:status": "permanent",
+        "seamark:type": "light_major",
+        "source": "CCPA/DGFiP dec2010;ANFR 08/2019",
+        "source:heritage": "data.gouv.fr, Ministère de la Culture - 2016",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "start_date": "C19",
+        "wikidata": "Q1639005",
+        "wikipedia": "fr:Phare de l'Île Vierge"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.5674238,
+              48.6388032
+            ],
+            [
+              -4.5673974,
+              48.6388354
+            ],
+            [
+              -4.5673992,
+              48.638872
+            ],
+            [
+              -4.567428,
+              48.6389032
+            ],
+            [
+              -4.5674767,
+              48.6389205
+            ],
+            [
+              -4.5675321,
+              48.6389195
+            ],
+            [
+              -4.567579,
+              48.6389003
+            ],
+            [
+              -4.5676053,
+              48.638868
+            ],
+            [
+              -4.5676038,
+              48.6388315
+            ],
+            [
+              -4.5675746,
+              48.6388002
+            ],
+            [
+              -4.567526,
+              48.6387828
+            ],
+            [
+              -4.5674707,
+              48.6387839
+            ],
+            [
+              -4.5674238,
+              48.6388032
+            ]
+          ]
+        ]
+      },
+      "id": "way/93055283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/93634419",
+        "building": "yes",
+        "height": "17",
+        "man_made": "lighthouse",
+        "name": "Feu Postérieur \"Croas Malo\"",
+        "name:br": "Tour-tan Kroaz Maloù",
+        "operator": "Phares & Balises",
+        "ref:FR:ANFR": "207071",
+        "seamark:type": "light_major",
+        "source": "ANFR 08/2019;Direction Générale des Impôts - Cadastre;mise à jour : 2013;local knowledge",
+        "source:name:br": "proper translation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.273133,
+              47.796454
+            ],
+            [
+              -4.27306,
+              47.796387
+            ],
+            [
+              -4.273048,
+              47.796393
+            ],
+            [
+              -4.273058,
+              47.796402
+            ],
+            [
+              -4.273005,
+              47.796428
+            ],
+            [
+              -4.273055,
+              47.796475
+            ],
+            [
+              -4.273109,
+              47.796451
+            ],
+            [
+              -4.27312,
+              47.796461
+            ],
+            [
+              -4.273133,
+              47.796454
+            ]
+          ]
+        ]
+      },
+      "id": "way/93634419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118445466",
+        "building": "yes",
+        "man_made": "lighthouse",
+        "name": "Phare de La Croix",
+        "seamark:type": "light_major",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+        "wikidata": "Q3378465"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.918208,
+              47.869268
+            ],
+            [
+              -3.918138,
+              47.869232
+            ],
+            [
+              -3.91806,
+              47.8693
+            ],
+            [
+              -3.91813,
+              47.869337
+            ],
+            [
+              -3.918208,
+              47.869268
+            ]
+          ]
+        ]
+      },
+      "id": "way/118445466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/123135478",
+        "building": "yes",
+        "man_made": "lighthouse",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "13",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "9",
+        "seamark:light:1:sector_end": "64",
+        "seamark:light:1:sector_start": "22",
+        "seamark:light:1:sequence": "3+(1),1+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "13",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "6",
+        "seamark:light:2:sector_end": "123",
+        "seamark:light:2:sector_start": "64",
+        "seamark:light:2:sequence": "3+(1),1+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "white",
+        "seamark:light:3:group": "2",
+        "seamark:light:3:height": "13",
+        "seamark:light:3:period": "6",
+        "seamark:light:3:range": "9",
+        "seamark:light:3:sector_end": "330",
+        "seamark:light:3:sector_start": "123",
+        "seamark:light:3:sequence": "3+(1),1+(1)",
+        "seamark:light:4:character": "Oc",
+        "seamark:light:4:colour": "green",
+        "seamark:light:4:group": "2",
+        "seamark:light:4:height": "13",
+        "seamark:light:4:period": "6",
+        "seamark:light:4:range": "6",
+        "seamark:light:4:sector_end": "22",
+        "seamark:light:4:sector_start": "330",
+        "seamark:light:4:sequence": "3+(1),1+(1)",
+        "seamark:light:reference": "D 1012",
+        "seamark:name": "Etel",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.2138791,
+              47.6449623
+            ],
+            [
+              -3.2139141,
+              47.6449413
+            ],
+            [
+              -3.2138761,
+              47.6449133
+            ],
+            [
+              -3.2138381,
+              47.6449353
+            ],
+            [
+              -3.2138791,
+              47.6449623
+            ]
+          ]
+        ]
+      },
+      "id": "way/123135478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/232707096",
         "alt_name": "Kermovan",
         "building": "lighthouse",
@@ -319,6 +764,178 @@
         ]
       },
       "id": "way/232707096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/252491992",
+        "building": "yes",
+        "man_made": "lighthouse",
+        "name": "Phare de l'Île Noire",
+        "name:br": "Tour-tan an Enez Du",
+        "name:en": "Isle Noire Lighthouse",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "15",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "135",
+        "seamark:light:1:sector_start": "51",
+        "seamark:light:1:sequence": "3+(1),1+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "15",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "8",
+        "seamark:light:2:sector_end": "211",
+        "seamark:light:2:sector_start": "135",
+        "seamark:light:2:sequence": "3+(1),1+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "white",
+        "seamark:light:3:group": "2",
+        "seamark:light:3:height": "15",
+        "seamark:light:3:period": "6",
+        "seamark:light:3:range": "11",
+        "seamark:light:3:sector_end": "51",
+        "seamark:light:3:sector_start": "211",
+        "seamark:light:3:sequence": "3+(1),1+(1)",
+        "seamark:light:reference": "A 1799.9",
+        "seamark:name": "Île Noire",
+        "seamark:type": "light_minor",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
+        "source:name:br": "proper translation",
+        "wikidata": "Q3378452"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.8754157,
+              48.6725232
+            ],
+            [
+              -3.8754216,
+              48.6725249
+            ],
+            [
+              -3.8754301,
+              48.672526
+            ],
+            [
+              -3.8754268,
+              48.672537
+            ],
+            [
+              -3.8755065,
+              48.6725471
+            ],
+            [
+              -3.8755095,
+              48.672536
+            ],
+            [
+              -3.87552,
+              48.6725373
+            ],
+            [
+              -3.8755261,
+              48.6725373
+            ],
+            [
+              -3.8755313,
+              48.6725361
+            ],
+            [
+              -3.8755348,
+              48.6725342
+            ],
+            [
+              -3.875537,
+              48.6725315
+            ],
+            [
+              -3.8755552,
+              48.6724678
+            ],
+            [
+              -3.8755557,
+              48.672464
+            ],
+            [
+              -3.8755551,
+              48.6724611
+            ],
+            [
+              -3.8755534,
+              48.6724589
+            ],
+            [
+              -3.8755511,
+              48.6724574
+            ],
+            [
+              -3.8755462,
+              48.6724558
+            ],
+            [
+              -3.8755109,
+              48.6724512
+            ],
+            [
+              -3.8754814,
+              48.6724474
+            ],
+            [
+              -3.8754462,
+              48.6724428
+            ],
+            [
+              -3.8754411,
+              48.6724425
+            ],
+            [
+              -3.8754362,
+              48.6724429
+            ],
+            [
+              -3.875432,
+              48.6724443
+            ],
+            [
+              -3.8754295,
+              48.6724464
+            ],
+            [
+              -3.8754272,
+              48.6724498
+            ],
+            [
+              -3.8754182,
+              48.6724788
+            ],
+            [
+              -3.8754092,
+              48.6725118
+            ],
+            [
+              -3.8754094,
+              48.6725165
+            ],
+            [
+              -3.8754114,
+              48.67252
+            ],
+            [
+              -3.8754157,
+              48.6725232
+            ]
+          ]
+        ]
+      },
+      "id": "way/252491992"
     },
     {
       "type": "Feature",
@@ -1081,6 +1698,69 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/753694859",
+        "building": "yes",
+        "height": "10",
+        "man_made": "lighthouse",
+        "note": "Feu postérieur",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.0730894,
+              48.6853322
+            ],
+            [
+              -4.0730812,
+              48.6853124
+            ],
+            [
+              -4.0730725,
+              48.6853142
+            ],
+            [
+              -4.0730712,
+              48.6853131
+            ],
+            [
+              -4.0730677,
+              48.6853117
+            ],
+            [
+              -4.0730633,
+              48.6853123
+            ],
+            [
+              -4.0730603,
+              48.6853143
+            ],
+            [
+              -4.0730596,
+              48.6853167
+            ],
+            [
+              -4.0730511,
+              48.6853183
+            ],
+            [
+              -4.0730598,
+              48.6853377
+            ],
+            [
+              -4.0730894,
+              48.6853322
+            ]
+          ]
+        ]
+      },
+      "id": "way/753694859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/117081598",
         "height": "47",
         "heritage": "2",
@@ -1125,6 +1805,46 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/255359392",
+        "height": "28",
+        "heritage": "3",
+        "heritage:operator": "mhs",
+        "loc_name": "Grand Phare",
+        "man_made": "lighthouse",
+        "mhs:inscription_date": "2015-12-31",
+        "name": "Phare de Pen-Men",
+        "name:br": "Tour-tan Penn Maen",
+        "ref:FR:ANFR": "1483188",
+        "ref:mhs": "PA56000073",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "white",
+        "seamark:light:group": "4",
+        "seamark:light:height": "60",
+        "seamark:light:period": "25",
+        "seamark:light:range": "29",
+        "seamark:light:reference": "D 0962",
+        "seamark:light:sequence": "0.2+(2.8)+0.2+(2.8)+0.2+(2.8)+0.2+(15.8)",
+        "seamark:name": "Pen-Men",
+        "seamark:source": "US NGA Pub. 113. 2010-10-22.",
+        "seamark:type": "light_major",
+        "source": "ANFR 08/2019",
+        "source:heritage": "Ministère de la Culture - 07/2018",
+        "source:name:br": "proper translation",
+        "wikidata": "Q1262928",
+        "wikipedia": "fr:Phare de Pen-Men"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5093175,
+          47.6474101
+        ]
+      },
+      "id": "node/255359392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/275049016",
         "abandoned:aerialway": "station",
         "heritage": "2",
@@ -1163,6 +1883,220 @@
         ]
       },
       "id": "node/275049016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/322118873",
+        "man_made": "lighthouse",
+        "name": "Môle Nord",
+        "name:br": "Dig Norzh",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "red",
+        "seamark:light:group": "2",
+        "seamark:light:height": "4",
+        "seamark:light:period": "6",
+        "seamark:light:range": "5",
+        "seamark:light:reference": "D 0901",
+        "seamark:light:sequence": "1+(1)+1+(3)",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22.",
+        "source:name:br": "proper translation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2850516,
+          47.7915097
+        ]
+      },
+      "id": "node/322118873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/348069056",
+        "man_made": "lighthouse",
+        "name": "Môle Ouest Léchiagat",
+        "name:br": "Dig Kornôg Lechiagad",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "5",
+        "seamark:light:period": "4",
+        "seamark:light:range": "7",
+        "seamark:light:reference": "D 0899",
+        "seamark:light:sequence": "1+(3)",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22.",
+        "source:name:br": "proper translation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2861591,
+          47.7908359
+        ]
+      },
+      "id": "node/348069056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/348069074",
+        "man_made": "lighthouse",
+        "name": "Môle Sud",
+        "name:br": "Dig Su",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "4",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "5",
+        "seamark:light:1:sector_end": "258",
+        "seamark:light:1:sector_start": "78",
+        "seamark:light:1:sequence": "1+(1),1+(3)",
+        "seamark:light:reference": "D 0899.2",
+        "seamark:name": "Epi",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22.",
+        "source:name:br": "proper translation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2847793,
+          47.7908779
+        ]
+      },
+      "id": "node/348069074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/348522765",
+        "man_made": "lighthouse",
+        "name": "Feu Antérieur",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "7",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "66",
+        "seamark:light:1:sector_start": "233",
+        "seamark:light:reference": "D 0896",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2846445,
+          47.7905972
+        ]
+      },
+      "id": "node/348522765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/479846826",
+        "man_made": "lighthouse",
+        "name": "Corn ar'Che",
+        "name:fr": "Corn Carhai",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "white",
+        "seamark:light:group": "3",
+        "seamark:light:height": "19",
+        "seamark:light:period": "12",
+        "seamark:light:range": "9",
+        "seamark:light:reference": "A 1836",
+        "seamark:light:sequence": "1+(1.5)+1+(1.5)+1+(6)",
+        "seamark:name": "Corn ar'Che",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7321268,
+          48.5865626
+        ]
+      },
+      "id": "node/479846826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/500005640",
+        "man_made": "lighthouse",
+        "name": "Phare de Port Manec'h",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:group": "4",
+        "seamark:light:1:height": "38",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "10",
+        "seamark:light:1:sector_end": "296",
+        "seamark:light:1:sector_start": "140",
+        "seamark:light:1:sequence": "5+(1),1+(1),1+(1),1+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:group": "4",
+        "seamark:light:2:height": "38",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "7",
+        "seamark:light:2:sector_end": "303",
+        "seamark:light:2:sector_start": "296",
+        "seamark:light:2:sequence": "5+(1),1+(1),1+(1),1+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:group": "4",
+        "seamark:light:3:height": "38",
+        "seamark:light:3:period": "12",
+        "seamark:light:3:range": "7",
+        "seamark:light:3:sector_end": "328",
+        "seamark:light:3:sector_start": "311",
+        "seamark:light:3:sequence": "5+(1),1+(1),1+(1),1+(1)",
+        "seamark:light:4:character": "Oc",
+        "seamark:light:4:colour": "white",
+        "seamark:light:4:group": "4",
+        "seamark:light:4:height": "38",
+        "seamark:light:4:period": "12",
+        "seamark:light:4:range": "10",
+        "seamark:light:4:sector_end": "50",
+        "seamark:light:4:sector_start": "328",
+        "seamark:light:4:sequence": "5+(1),1+(1),1+(1),1+(1)",
+        "seamark:light:5:character": "Oc",
+        "seamark:light:5:colour": "white",
+        "seamark:light:5:group": "4",
+        "seamark:light:5:height": "38",
+        "seamark:light:5:period": "12",
+        "seamark:light:5:range": "7",
+        "seamark:light:5:sector_end": "140",
+        "seamark:light:5:sector_start": "50",
+        "seamark:light:5:sequence": "5+(1),1+(1),1+(1),1+(1)",
+        "seamark:light:5:visibility": "unintensified",
+        "seamark:light:6:character": "Oc",
+        "seamark:light:6:colour": "white",
+        "seamark:light:6:group": "4",
+        "seamark:light:6:height": "38",
+        "seamark:light:6:period": "12",
+        "seamark:light:6:range": "10",
+        "seamark:light:6:sector_end": "311",
+        "seamark:light:6:sector_start": "303",
+        "seamark:light:6:sequence": "5+(1),1+(1),1+(1),1+(1)",
+        "seamark:light:reference": "D 0946",
+        "seamark:name": "Port-Manech",
+        "seamark:source": "US NGA Pub. 113. 2010-10-22.",
+        "seamark:type": "light_minor",
+        "wikidata": "Q3378340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73907,
+          47.7997683
+        ]
+      },
+      "id": "node/500005640"
     },
     {
       "type": "Feature",
@@ -1394,6 +2328,52 @@
         ]
       },
       "id": "node/602489831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/678005963",
+        "name:br": "Tour-tan ar Beg",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "4",
+        "seamark:light:1:height": "9",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "10",
+        "seamark:light:1:sector_end": "84",
+        "seamark:light:1:sector_start": "58",
+        "seamark:light:1:sequence": "1+(1),1+(1),1+(1),5+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "4",
+        "seamark:light:2:height": "9",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "13",
+        "seamark:light:2:sector_end": "88",
+        "seamark:light:2:sector_start": "84",
+        "seamark:light:2:sequence": "1+(1),1+(1),1+(1),5+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:group": "4",
+        "seamark:light:3:height": "9",
+        "seamark:light:3:period": "12",
+        "seamark:light:3:range": "10",
+        "seamark:light:3:sector_end": "58",
+        "seamark:light:3:sector_start": "88",
+        "seamark:light:3:sequence": "1+(1),1+(1),1+(1),5+(1)",
+        "seamark:light:reference": "A 1838",
+        "seamark:name": "Portsall",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7042949,
+          48.5640272
+        ]
+      },
+      "id": "node/678005963"
     },
     {
       "type": "Feature",
@@ -1676,6 +2656,1470 @@
         ]
       },
       "id": "node/1324343839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370799990",
+        "seamark:light:character": "Iso",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "9",
+        "seamark:light:period": "4",
+        "seamark:light:range": "7",
+        "seamark:light:reference": "D 1018",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1226476,
+          47.4764014
+        ]
+      },
+      "id": "node/1370799990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800006",
+        "seamark:light:character": "Oc",
+        "seamark:light:colour": "red",
+        "seamark:light:group": "2",
+        "seamark:light:height": "9",
+        "seamark:light:period": "6",
+        "seamark:light:range": "7",
+        "seamark:light:reference": "D 1017",
+        "seamark:light:sequence": "3+(1)+1+(1)",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1218879,
+          47.4756779
+        ]
+      },
+      "id": "node/1370800006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800015",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "13",
+        "seamark:light:1:range": "17",
+        "seamark:light:1:sector_end": "8",
+        "seamark:light:1:sector_start": "5",
+        "seamark:light:1:visibility": "intensified",
+        "seamark:light:2:character": "Q",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:height": "13",
+        "seamark:light:2:range": "17",
+        "seamark:light:2:sector_end": "6.5",
+        "seamark:light:2:sector_start": "6.5",
+        "seamark:light:reference": "D 1015.1",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1193533,
+          47.4792244
+        ]
+      },
+      "id": "node/1370800015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800023",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "5",
+        "seamark:light:1:range": "16",
+        "seamark:light:1:sector_end": "8",
+        "seamark:light:1:sector_start": "5",
+        "seamark:light:1:visibility": "intensified",
+        "seamark:light:reference": "D 1015",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1197626,
+          47.4771708
+        ]
+      },
+      "id": "node/1370800023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800029",
+        "man_made": "lighthouse",
+        "name": "Phare de Port-Maria",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:height": "28",
+        "seamark:light:1:range": "10",
+        "seamark:light:1:sector_end": "51",
+        "seamark:light:1:sector_start": "17",
+        "seamark:light:2:character": "Q",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:height": "28",
+        "seamark:light:2:range": "14",
+        "seamark:light:2:sector_end": "81",
+        "seamark:light:2:sector_start": "51",
+        "seamark:light:3:character": "Q",
+        "seamark:light:3:colour": "green",
+        "seamark:light:3:height": "28",
+        "seamark:light:3:range": "10",
+        "seamark:light:3:sector_end": "98",
+        "seamark:light:3:sector_start": "81",
+        "seamark:light:4:character": "Q",
+        "seamark:light:4:colour": "white",
+        "seamark:light:4:height": "28",
+        "seamark:light:4:range": "14",
+        "seamark:light:4:sector_end": "143",
+        "seamark:light:4:sector_start": "98",
+        "seamark:light:5:character": "Q",
+        "seamark:light:5:colour": "white",
+        "seamark:light:5:height": "28",
+        "seamark:light:5:range": "14",
+        "seamark:light:5:sector_end": "252",
+        "seamark:light:5:sector_start": "246",
+        "seamark:light:6:character": "Q",
+        "seamark:light:6:colour": "white",
+        "seamark:light:6:height": "28",
+        "seamark:light:6:range": "14",
+        "seamark:light:6:sector_end": "297",
+        "seamark:light:6:sector_start": "291",
+        "seamark:light:7:character": "Q",
+        "seamark:light:7:colour": "green",
+        "seamark:light:7:height": "28",
+        "seamark:light:7:range": "10",
+        "seamark:light:7:sector_end": "340",
+        "seamark:light:7:sector_start": "297",
+        "seamark:light:8:character": "Q",
+        "seamark:light:8:colour": "white",
+        "seamark:light:8:height": "28",
+        "seamark:light:8:range": "14",
+        "seamark:light:8:sector_end": "17",
+        "seamark:light:8:sector_start": "340",
+        "seamark:light:reference": "D 1016",
+        "seamark:name": "Presqu'île de Quiberon",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22.",
+        "wikidata": "Q2084983",
+        "wikipedia": "fr:Phare de Port-Maria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1241767,
+          47.4796902
+        ]
+      },
+      "id": "node/1370800029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800110",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "14",
+        "seamark:light:1:range": "7",
+        "seamark:light:2:character": "Q",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:height": "14",
+        "seamark:light:2:range": "5",
+        "seamark:light:3:character": "Q",
+        "seamark:light:3:colour": "green",
+        "seamark:light:3:height": "14",
+        "seamark:light:3:range": "5",
+        "seamark:light:reference": "D 1003",
+        "seamark:name": "Citadelle of Port Louis",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3634361,
+          47.7109051
+        ]
+      },
+      "id": "node/1370800110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800118",
+        "seamark:light:1:character": "Iso",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "6",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "9",
+        "seamark:light:1:sector_end": "351.5",
+        "seamark:light:1:sector_start": "350",
+        "seamark:light:2:character": "Iso",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:height": "6",
+        "seamark:light:2:period": "4",
+        "seamark:light:2:range": "11",
+        "seamark:light:2:sector_end": "352.5",
+        "seamark:light:2:sector_start": "351.5",
+        "seamark:light:3:character": "Iso",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:height": "6",
+        "seamark:light:3:period": "4",
+        "seamark:light:3:range": "9",
+        "seamark:light:3:sector_end": "355.5",
+        "seamark:light:3:sector_start": "352.5",
+        "seamark:light:reference": "D 1002.4",
+        "seamark:name": "Pont Goeydon",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3504722,
+          47.7507365
+        ]
+      },
+      "id": "node/1370800118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800135",
+        "ref:admiralty": "D0999",
+        "ref:nga": "113-620",
+        "seamark:light:character": "Q",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "7",
+        "seamark:light:range": "2",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3492813,
+          47.7404113
+        ]
+      },
+      "id": "node/1370800135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800148",
+        "seamark:light:1:category": "directional",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:height": "18",
+        "seamark:light:1:orientation": "217",
+        "seamark:light:1:range": "15",
+        "seamark:light:reference": "D 0996.1",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3740799,
+          47.7149747
+        ]
+      },
+      "id": "node/1370800148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800156",
+        "seamark:information": "Intensified 2° each side of range line.",
+        "seamark:light:category": "front",
+        "seamark:light:character": "Q",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "10",
+        "seamark:light:range": "15",
+        "seamark:light:reference": "D 0996",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3718816,
+          47.7170745
+        ]
+      },
+      "id": "node/1370800156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800161",
+        "ref:admiralty": "D0994",
+        "ref:nga": "113-608",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "7",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "6",
+        "seamark:light:1:sector_end": "235",
+        "seamark:light:1:sector_start": "0",
+        "seamark:light:1:sequence": "1+(3)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:height": "7",
+        "seamark:light:2:period": "4",
+        "seamark:light:2:range": "6",
+        "seamark:light:2:sector_end": "360",
+        "seamark:light:2:sector_start": "235",
+        "seamark:light:2:sequence": "1+(3)",
+        "seamark:name": "Keroman",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3644479,
+          47.7271279
+        ]
+      },
+      "id": "node/1370800161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800162",
+        "ref:admiralty": "D0990.1",
+        "ref:nga": "113-604",
+        "seamark:light:1:category": "rear",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "31",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "15",
+        "seamark:light:1:sector_end": "351",
+        "seamark:light:1:sector_start": "349",
+        "seamark:light:1:sequence": "3+(1)+1+(1)",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3670627,
+          47.7275116
+        ]
+      },
+      "id": "node/1370800162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800163",
+        "ref:admiralty": "D0990",
+        "ref:nga": "113-600",
+        "seamark:light:1:category": "front",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "25",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "15",
+        "seamark:light:1:sector_end": "351",
+        "seamark:light:1:sector_start": "349",
+        "seamark:light:1:sequence": "3+(1)+1+(1)",
+        "seamark:light:1:visibility": "intensified",
+        "seamark:type": "light_major"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3668605,
+          47.7267186
+        ]
+      },
+      "id": "node/1370800163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800179",
+        "seamark:light:1:character": "Iso",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "7",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "6",
+        "seamark:light:1:sector_end": "301",
+        "seamark:light:1:sector_start": "43",
+        "seamark:light:reference": "D 0985",
+        "seamark:name": "Port Louis",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3561206,
+          47.711836
+        ]
+      },
+      "id": "node/1370800179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800244",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "6",
+        "seamark:light:1:range": "3",
+        "seamark:light:1:sector_end": "43.5",
+        "seamark:light:1:sector_start": "41.5",
+        "seamark:light:2:character": "Q",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:height": "6",
+        "seamark:light:2:range": "2",
+        "seamark:light:2:sector_end": "41.5",
+        "seamark:light:2:sector_start": "43.5",
+        "seamark:light:reference": "D 0975",
+        "seamark:name": "Ile aux Souris",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3586091,
+          47.7025429
+        ]
+      },
+      "id": "node/1370800244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800281",
+        "name": "Feu de la croix",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "16",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "12",
+        "seamark:light:1:sector_end": "336",
+        "seamark:light:1:sector_start": "169",
+        "seamark:light:1:sequence": "3+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:height": "16",
+        "seamark:light:2:period": "4",
+        "seamark:light:2:range": "9",
+        "seamark:light:2:sector_end": "345",
+        "seamark:light:2:sector_start": "336",
+        "seamark:light:2:sequence": "3+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "white",
+        "seamark:light:3:height": "16",
+        "seamark:light:3:period": "4",
+        "seamark:light:3:range": "12",
+        "seamark:light:3:sector_end": "353",
+        "seamark:light:3:sector_start": "345",
+        "seamark:light:3:sequence": "3+(1)",
+        "seamark:light:reference": "D 0968",
+        "seamark:name": "Pointe de la Croix",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4167358,
+          47.6342433
+        ]
+      },
+      "id": "node/1370800281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800299",
+        "man_made": "beacon",
+        "name": "Port-Tudy Nord",
+        "name:br": "Porzh Tudi - Norzh",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "green",
+        "seamark:light:group": "2",
+        "seamark:light:height": "12",
+        "seamark:light:period": "6",
+        "seamark:light:range": "7",
+        "seamark:light:reference": "D 0966",
+        "seamark:light:sequence": "1+(1)+1+(3)",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22. - NTM 49/2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4454488,
+          47.6453947
+        ]
+      },
+      "id": "node/1370800299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800336",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "22",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "112.5",
+        "seamark:light:1:sector_start": "96.5",
+        "seamark:light:1:sequence": "3+(1),1+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "22",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "8",
+        "seamark:light:2:sector_end": "132",
+        "seamark:light:2:sector_start": "112.5",
+        "seamark:light:2:sequence": "3+(1),1+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:group": "2",
+        "seamark:light:3:height": "22",
+        "seamark:light:3:period": "6",
+        "seamark:light:3:range": "8",
+        "seamark:light:3:sector_end": "302",
+        "seamark:light:3:sector_start": "132",
+        "seamark:light:3:sequence": "3+(1),1+(1)",
+        "seamark:light:4:character": "Oc",
+        "seamark:light:4:colour": "white",
+        "seamark:light:4:group": "2",
+        "seamark:light:4:height": "22",
+        "seamark:light:4:period": "6",
+        "seamark:light:4:range": "11",
+        "seamark:light:4:sector_end": "96.5",
+        "seamark:light:4:sector_start": "302",
+        "seamark:light:4:sequence": "3+(1),1+(1)",
+        "seamark:light:reference": "D 0960",
+        "seamark:name": "Kerroch",
+        "seamark:radio_station:category": "ais",
+        "seamark:radio_station:mmsi": "992271009",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4609762,
+          47.6995249
+        ]
+      },
+      "id": "node/1370800336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800355",
+        "name": "Feu de Lomener",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "13",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "355.2",
+        "seamark:light:1:sector_start": "349.2",
+        "seamark:light:2:character": "Q",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:height": "13",
+        "seamark:light:2:range": "10",
+        "seamark:light:2:sector_end": "359.2",
+        "seamark:light:2:sector_start": "355.2",
+        "seamark:light:3:character": "Q",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:height": "13",
+        "seamark:light:3:range": "8",
+        "seamark:light:3:sector_end": "5.2",
+        "seamark:light:3:sector_start": "359.2",
+        "seamark:light:reference": "D 0961",
+        "seamark:name": "Lomener",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4257644,
+          47.7049987
+        ]
+      },
+      "id": "node/1370800355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800368",
+        "man_made": "lighthouse",
+        "name": "Doëlan Amont",
+        "seamark:light:character": "Oc",
+        "seamark:light:colour": "red",
+        "seamark:light:group": "3",
+        "seamark:light:height": "27",
+        "seamark:light:period": "12",
+        "seamark:light:range": "9",
+        "seamark:light:reference": "D 0954.1",
+        "seamark:light:sequence": "4.5+(1.5)+1.5+(1.5)+1.5+(1.5)",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2015-06-27 - NTM 49/2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6075322,
+          47.7746906
+        ]
+      },
+      "id": "node/1370800368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800372",
+        "man_made": "lighthouse",
+        "name": "Doëlan Aval",
+        "seamark:information": "G. 305°-314°, W. elsewhere.",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "3",
+        "seamark:light:1:height": "20",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "10",
+        "seamark:light:1:sector_end": "314",
+        "seamark:light:1:sector_start": "305",
+        "seamark:light:1:sequence": "4.5+(1.5),1.5+(1.5),1.5+(1.5)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "3",
+        "seamark:light:2:height": "20",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "13",
+        "seamark:light:2:sector_end": "305",
+        "seamark:light:2:sector_start": "314",
+        "seamark:light:2:sequence": "4.5+(1.5),1.5+(1.5),1.5+(1.5)",
+        "seamark:light:reference": "D 0954",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2015-06-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6085701,
+          47.7718718
+        ]
+      },
+      "id": "node/1370800372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800383",
+        "man_made": "beacon",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:height": "26",
+        "seamark:light:1:range": "7",
+        "seamark:light:1:sector_end": "9",
+        "seamark:light:1:sector_start": "4",
+        "seamark:light:reference": "D 0952",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6494407,
+          47.7839983
+        ]
+      },
+      "id": "node/1370800383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800391",
+        "man_made": "beacon",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "7",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "9",
+        "seamark:light:1:sector_end": "329",
+        "seamark:light:1:sector_start": "280",
+        "seamark:light:1:sequence": "3+(1),1+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "7",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "12",
+        "seamark:light:2:sector_end": "339",
+        "seamark:light:2:sector_start": "329",
+        "seamark:light:2:sequence": "3+(1),1+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:group": "2",
+        "seamark:light:3:height": "7",
+        "seamark:light:3:period": "6",
+        "seamark:light:3:range": "9",
+        "seamark:light:3:sector_end": "34",
+        "seamark:light:3:sector_start": "339",
+        "seamark:light:3:sequence": "3+(1),1+(1)",
+        "seamark:light:reference": "D 0950",
+        "seamark:name": "Brigneau",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6695374,
+          47.7811007
+        ]
+      },
+      "id": "node/1370800391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800437",
+        "man_made": "beacon",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "5",
+        "seamark:light:period": "4",
+        "seamark:light:range": "8",
+        "seamark:light:reference": "D 0945",
+        "seamark:light:sequence": "1+(3)",
+        "seamark:name": "Shelter",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8550661,
+          47.7945615
+        ]
+      },
+      "id": "node/1370800437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800453",
+        "man_made": "beacon",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "11",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "7",
+        "seamark:light:1:sector_end": "351",
+        "seamark:light:1:sector_start": "322",
+        "seamark:light:1:sequence": "0.5+(1.5),0.5+(3.5)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "11",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "10",
+        "seamark:light:2:sector_end": "51",
+        "seamark:light:2:sector_start": "4",
+        "seamark:light:2:sequence": "0.5+(1.5),0.5+(3.5)",
+        "seamark:light:3:character": "Fl",
+        "seamark:light:3:colour": "green",
+        "seamark:light:3:group": "2",
+        "seamark:light:3:height": "11",
+        "seamark:light:3:period": "6",
+        "seamark:light:3:range": "7",
+        "seamark:light:3:sector_end": "85",
+        "seamark:light:3:sector_start": "51",
+        "seamark:light:3:sequence": "0.5+(1.5),0.5+(3.5)",
+        "seamark:light:4:character": "Fl",
+        "seamark:light:4:colour": "white",
+        "seamark:light:4:group": "2",
+        "seamark:light:4:height": "11",
+        "seamark:light:4:period": "6",
+        "seamark:light:4:range": "10",
+        "seamark:light:4:sector_end": "92",
+        "seamark:light:4:sector_start": "85",
+        "seamark:light:4:sequence": "0.5+(1.5),0.5+(3.5)",
+        "seamark:light:5:character": "Fl",
+        "seamark:light:5:colour": "red",
+        "seamark:light:5:group": "2",
+        "seamark:light:5:height": "11",
+        "seamark:light:5:period": "6",
+        "seamark:light:5:range": "7",
+        "seamark:light:5:sector_end": "127",
+        "seamark:light:5:sector_start": "92",
+        "seamark:light:5:sequence": "0.5+(1.5),0.5+(3.5)",
+        "seamark:light:reference": "D 0944",
+        "seamark:name": "Trévignon",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8554054,
+          47.7932088
+        ]
+      },
+      "id": "node/1370800453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800508",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "6",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "65",
+        "seamark:light:1:sector_start": "53",
+        "seamark:light:1:sequence": "1+(3)",
+        "seamark:light:reference": "D 0940",
+        "seamark:name": "Baie de Pouldohan",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8949267,
+          47.8495351
+        ]
+      },
+      "id": "node/1370800508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800549",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "13",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "78",
+        "seamark:light:1:sector_start": "63",
+        "seamark:light:reference": "D 0932",
+        "seamark:name": "Lanriec",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9107323,
+          47.8668523
+        ]
+      },
+      "id": "node/1370800549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800623",
+        "seamark:light:1:category": "directional",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "87",
+        "seamark:light:1:range": "23",
+        "seamark:light:reference": "D 0930",
+        "seamark:name": "Beuzec",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9022301,
+          47.8888785
+        ]
+      },
+      "id": "node/1370800623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800642",
+        "man_made": "lighthouse",
+        "seamark:light:1:category": "front",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "14",
+        "seamark:light:1:range": "13",
+        "seamark:light:1:sector_end": "93",
+        "seamark:light:1:sector_start": "6.5",
+        "seamark:light:reference": "D 0928",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9181286,
+          47.869285
+        ]
+      },
+      "id": "node/1370800642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800680",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "8",
+        "seamark:light:period": "4",
+        "seamark:light:range": "1",
+        "seamark:light:reference": "D 0925.4",
+        "seamark:light:sequence": "1+(3)",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9728001,
+          47.893396
+        ]
+      },
+      "id": "node/1370800680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800688",
+        "man_made": "lighthouse",
+        "note": "Placé à l'extrémité du môle de Cap-Coz d'après Ortho-photo Geolittoral",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "5",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "5",
+        "seamark:light:1:sector_end": "335",
+        "seamark:light:1:sector_start": "346",
+        "seamark:light:1:sequence": "1+(1),1+(3)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "5",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "5",
+        "seamark:light:2:sector_end": "340",
+        "seamark:light:2:sector_start": "335",
+        "seamark:light:2:sequence": "1+(1),1+(3)",
+        "seamark:light:3:character": "Fl",
+        "seamark:light:3:colour": "white",
+        "seamark:light:3:group": "2",
+        "seamark:light:3:height": "5",
+        "seamark:light:3:period": "6",
+        "seamark:light:3:range": "7",
+        "seamark:light:3:sector_end": "346",
+        "seamark:light:3:sector_start": "340",
+        "seamark:light:3:sequence": "1+(1),1+(3)",
+        "seamark:light:reference": "D 0925",
+        "seamark:name": "Cap Coz",
+        "seamark:source": "US NGA Pub. 113. 2010-10-22.",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9712968,
+          47.8914636
+        ]
+      },
+      "id": "node/1370800688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800757",
+        "alt_name": "La Pyramide",
+        "man_made": "lighthouse",
+        "name": "Phare de Bénodet",
+        "name:br": "Tour-tan Benoded",
+        "seamark:light:1:category": "rear",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:group": "2+1",
+        "seamark:light:1:height": "48",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "11",
+        "seamark:light:1:sector_end": "16",
+        "seamark:light:1:sector_start": "338",
+        "seamark:light:1:sequence": "4+(1),4+(1),1+(1)",
+        "seamark:light:reference": "D 0914",
+        "seamark:name": "La Pyramide",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22.",
+        "source:name:br": "proper translation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1128431,
+          47.8748394
+        ]
+      },
+      "id": "node/1370800757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800768",
+        "seamark:light:category": "front",
+        "seamark:light:character": "Oc",
+        "seamark:light:colour": "green",
+        "seamark:light:group": "2+1",
+        "seamark:light:height": "11",
+        "seamark:light:period": "12",
+        "seamark:light:range": "17",
+        "seamark:light:reference": "D 0913.9",
+        "seamark:light:sequence": "4+(1)+4+(1)+1+(1)",
+        "seamark:name": "Pointe du Coq",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1117014,
+          47.8718168
+        ]
+      },
+      "id": "node/1370800768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800781",
+        "height": "15",
+        "man_made": "lighthouse",
+        "name": "Phare de Sainte-Marine",
+        "name:br": "Tour-tan al Loc'hez",
+        "ref:FR:ANFR": "206820",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:group": "3+1",
+        "seamark:light:1:height": "19",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "9",
+        "seamark:light:1:sector_end": "325",
+        "seamark:light:1:sector_start": "17",
+        "seamark:light:1:sequence": "1+(1),1+(1),3+(1),3+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "3+1",
+        "seamark:light:2:height": "19",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "12",
+        "seamark:light:2:sector_end": "17",
+        "seamark:light:2:sector_start": "325",
+        "seamark:light:2:sequence": "1+(1),1+(1),3+(1),3+(1)",
+        "seamark:light:reference": "D 0914.1",
+        "seamark:name": "Pointe de Combrit",
+        "seamark:type": "light_minor",
+        "source": "ANFR 08/2019;US NGA Pub. 113. 2010-10-22.",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "wikidata": "Q3378368",
+        "wikipedia": "fr:Phare de Sainte-Marine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.113028,
+          47.8643087
+        ]
+      },
+      "id": "node/1370800781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800801",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "2",
+        "seamark:light:period": "2.5",
+        "seamark:light:range": "1",
+        "seamark:light:reference": "D 0915",
+        "seamark:light:sequence": "0.5+(2)",
+        "seamark:name": "Pointe du Toulgoet",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1142696,
+          47.8715693
+        ]
+      },
+      "id": "node/1370800801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800813",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "green",
+        "seamark:light:group": "4",
+        "seamark:light:height": "5",
+        "seamark:light:period": "15",
+        "seamark:light:range": "1",
+        "seamark:light:reference": "D 0910",
+        "seamark:light:sequence": "0.5+(2)+0.5+(2)+0.5+(2)+0.5+(7)",
+        "seamark:name": "Le Blas",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1704278,
+          47.8380478
+        ]
+      },
+      "id": "node/1370800813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800823",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "3",
+        "seamark:light:period": "2.5",
+        "seamark:light:range": "1",
+        "seamark:light:reference": "D 0909",
+        "seamark:light:sequence": "0.5+(2)",
+        "seamark:name": "Karek-Saoz",
+        "seamark:radar_reflector": "yes",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1562824,
+          47.8336732
+        ]
+      },
+      "id": "node/1370800823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800876",
+        "seamark:light:character": "Oc",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "5",
+        "seamark:light:period": "4",
+        "seamark:light:range": "6",
+        "seamark:light:reference": "D 0904.5",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2107189,
+          47.7948216
+        ]
+      },
+      "id": "node/1370800876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800884",
+        "seamark:light:character": "Q",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "5",
+        "seamark:light:range": "5",
+        "seamark:light:reference": "D 0904",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2108366,
+          47.7951949
+        ]
+      },
+      "id": "node/1370800884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800897",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "3",
+        "seamark:light:1:height": "14",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "7",
+        "seamark:light:1:sector_end": "313",
+        "seamark:light:1:sector_start": "268",
+        "seamark:light:1:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "3",
+        "seamark:light:2:height": "14",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "10",
+        "seamark:light:2:sector_end": "333",
+        "seamark:light:2:sector_start": "313",
+        "seamark:light:2:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:3:character": "Fl",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:group": "3",
+        "seamark:light:3:height": "14",
+        "seamark:light:3:period": "12",
+        "seamark:light:3:range": "7",
+        "seamark:light:3:sector_end": "50",
+        "seamark:light:3:sector_start": "333",
+        "seamark:light:3:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:reference": "D 0902",
+        "seamark:name": "Lesconil",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2116001,
+          47.7965413
+        ]
+      },
+      "id": "node/1370800897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370800988",
+        "man_made": "lighthouse",
+        "name": "Phare du Guilvinec",
+        "name:br": "Tour-tan an Dig",
+        "name:en": "Le Guilvinec lighthouse",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "11",
+        "seamark:light:period": "4",
+        "seamark:light:range": "9",
+        "seamark:light:reference": "D 0900",
+        "seamark:light:sequence": "1+(3)",
+        "seamark:name": "Le Guilvinec",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22.",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "wikidata": "Q3378523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2847703,
+          47.7918032
+        ]
+      },
+      "id": "node/1370800988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370801048",
+        "seamark:information": "G. 063°-068°, R.-271°, W.-285°, R.-298°, G.-340°, R.-063°.Fl.R. and Fl.G. lights mark channel.",
+        "seamark:light:1:character": "Iso",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "11",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "6",
+        "seamark:light:1:sector_end": "68",
+        "seamark:light:1:sector_start": "63",
+        "seamark:light:2:character": "Iso",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:height": "11",
+        "seamark:light:2:period": "4",
+        "seamark:light:2:range": "6",
+        "seamark:light:2:sector_end": "271",
+        "seamark:light:2:sector_start": "68",
+        "seamark:light:3:character": "Iso",
+        "seamark:light:3:colour": "white",
+        "seamark:light:3:height": "11",
+        "seamark:light:3:period": "4",
+        "seamark:light:3:range": "9",
+        "seamark:light:3:sector_end": "285",
+        "seamark:light:3:sector_start": "271",
+        "seamark:light:4:character": "Iso",
+        "seamark:light:4:colour": "red",
+        "seamark:light:4:height": "11",
+        "seamark:light:4:period": "4",
+        "seamark:light:4:range": "6",
+        "seamark:light:4:sector_end": "298",
+        "seamark:light:4:sector_start": "285",
+        "seamark:light:5:character": "Iso",
+        "seamark:light:5:colour": "green",
+        "seamark:light:5:height": "11",
+        "seamark:light:5:period": "4",
+        "seamark:light:5:range": "6",
+        "seamark:light:5:sector_end": "340",
+        "seamark:light:5:sector_start": "298",
+        "seamark:light:6:character": "Iso",
+        "seamark:light:6:colour": "red",
+        "seamark:light:6:height": "11",
+        "seamark:light:6:period": "4",
+        "seamark:light:6:range": "6",
+        "seamark:light:6:sector_end": "63",
+        "seamark:light:6:sector_start": "340",
+        "seamark:light:reference": "D 0894",
+        "seamark:name": "Locarec Rock",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3384336,
+          47.7882739
+        ]
+      },
+      "id": "node/1370801048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370801070",
+        "name:fr": "Le Menhir",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "19",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "7",
+        "seamark:light:1:sector_end": "135",
+        "seamark:light:1:sector_start": "315",
+        "seamark:light:1:sequence": "1+(1),1+(3)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "19",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "4",
+        "seamark:light:2:sector_end": "315",
+        "seamark:light:2:sector_start": "135",
+        "seamark:light:2:sequence": "1+(1),1+(3)",
+        "seamark:light:reference": "D 0892",
+        "seamark:name": "La Menhir",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3997406,
+          47.7956544
+        ]
+      },
+      "id": "node/1370801070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370801091",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "green",
+        "seamark:light:group": "2",
+        "seamark:light:height": "6",
+        "seamark:light:period": "6",
+        "seamark:light:range": "3",
+        "seamark:light:reference": "D 0893",
+        "seamark:light:sequence": "0.5+(1.5)+0.5+(3.5)",
+        "seamark:name": "Scoedec",
+        "seamark:source": "US NGA Pub. 113.(2020)",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3862913,
+          47.8069683
+        ]
+      },
+      "id": "node/1370801091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370801139",
+        "seamark:light:category": "front",
+        "seamark:light:character": "F",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "9",
+        "seamark:light:range": "9",
+        "seamark:light:reference": "D 0886",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3777768,
+          47.8020719
+        ]
+      },
+      "id": "node/1370801139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1370801144",
+        "seamark:light:category": "rear",
+        "seamark:light:character": "F",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "13",
+        "seamark:light:range": "9",
+        "seamark:light:reference": "D 0886.1",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3744414,
+          47.8005529
+        ]
+      },
+      "id": "node/1370801144"
     },
     {
       "type": "Feature",
@@ -2435,6 +4879,43 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/1370801486",
+        "seamark:construction": "masonry",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "49",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "22",
+        "seamark:light:1:sector_end": "140.24",
+        "seamark:light:1:sector_start": "135.24",
+        "seamark:light:1:visibility": "intensified",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:height": "49",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "21",
+        "seamark:light:2:sector_end": "135.24",
+        "seamark:light:2:sector_start": "140.24",
+        "seamark:light:2:visibility": "unintensified",
+        "seamark:light:reference": "A 1880",
+        "seamark:name": "Lochrist",
+        "seamark:radio_station:category": "ais",
+        "seamark:radio_station:mmsi": "992271310",
+        "seamark:status": "permanent",
+        "seamark:type": "light_major"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7635343,
+          48.3425258
+        ]
+      },
+      "id": "node/1370801486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/1370801507",
         "man_made": "lighthouse",
         "name": "Phare de Trézien",
@@ -2600,6 +5081,748 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/1370801572",
+        "seamark:light:character": "LFl",
+        "seamark:light:colour": "white",
+        "seamark:light:height": "10",
+        "seamark:light:period": "4",
+        "seamark:light:range": "7",
+        "seamark:light:reference": "A 1518",
+        "seamark:light:sequence": "0.5+(3.5)",
+        "seamark:light_float:colour": "red;white",
+        "seamark:light_float:colour_pattern": "vertical",
+        "seamark:name": "SW.LANBY",
+        "seamark:radar_transponder:category": "racon",
+        "seamark:radar_transponder:group": "M",
+        "seamark:radio_station:category": "ais",
+        "seamark:type": "light_float",
+        "source": "US NGA Pub. 113. 2010-10-22."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.77628,
+          48.51917
+        ]
+      },
+      "id": "node/1370801572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1395067584",
+        "alt_name": "Phare de l'Île aux Moutons",
+        "man_made": "lighthouse",
+        "name": "Phare des Moutons",
+        "name:br": "Tour-tan ar Moelez",
+        "name:en": "Lighthouse les Moutons",
+        "seamark:light:1:character": "Iso",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:height": "18",
+        "seamark:light:1:period": "2",
+        "seamark:light:1:range": "11",
+        "seamark:light:1:sector_end": "35",
+        "seamark:light:1:sector_start": "292",
+        "seamark:light:2:character": "Iso",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:height": "18",
+        "seamark:light:2:period": "2",
+        "seamark:light:2:range": "15",
+        "seamark:light:2:sector_end": "50",
+        "seamark:light:2:sector_start": "35",
+        "seamark:light:3:character": "Iso",
+        "seamark:light:3:colour": "green",
+        "seamark:light:3:height": "18",
+        "seamark:light:3:period": "2",
+        "seamark:light:3:range": "11",
+        "seamark:light:3:sector_end": "63",
+        "seamark:light:3:sector_start": "50",
+        "seamark:light:4:character": "Iso",
+        "seamark:light:4:colour": "white",
+        "seamark:light:4:height": "18",
+        "seamark:light:4:period": "2",
+        "seamark:light:4:range": "15",
+        "seamark:light:4:sector_end": "81",
+        "seamark:light:4:sector_start": "63",
+        "seamark:light:5:character": "Iso",
+        "seamark:light:5:colour": "red",
+        "seamark:light:5:height": "18",
+        "seamark:light:5:period": "2",
+        "seamark:light:5:range": "11",
+        "seamark:light:5:sector_end": "141",
+        "seamark:light:5:sector_start": "81",
+        "seamark:light:6:character": "Iso",
+        "seamark:light:6:colour": "white",
+        "seamark:light:6:height": "18",
+        "seamark:light:6:period": "2",
+        "seamark:light:6:range": "15",
+        "seamark:light:6:sector_end": "292",
+        "seamark:light:6:sector_start": "141",
+        "seamark:light:reference": "D 0918",
+        "seamark:name": "Ile aux Moutons",
+        "seamark:radio_station:category": "ais",
+        "seamark:radio_station:mmsi": "992271013",
+        "seamark:type": "light_major",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "wikidata": "Q2085008",
+        "wikipedia": "fr:Phare de l'Île aux Moutons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0277612,
+          47.7745806
+        ]
+      },
+      "id": "node/1395067584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543884525",
+        "seamark:information": "Intensified 134° - 140°",
+        "seamark:light:category": "upper",
+        "seamark:light:character": "Oc",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "34",
+        "seamark:light:period": "4",
+        "seamark:light:range": "15",
+        "seamark:light:reference": "A 1762.1",
+        "seamark:light:sequence": "3+(1)",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1185833,
+          48.8500667
+        ]
+      },
+      "id": "node/1543884525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543884593",
+        "seamark:light:1:category": "lower",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "12",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "11",
+        "seamark:light:1:sector_end": "232",
+        "seamark:light:1:sector_start": "42",
+        "seamark:light:1:sequence": "3+(1)",
+        "seamark:light:reference": "A 1762",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.131252,
+          48.8591783
+        ]
+      },
+      "id": "node/1543884593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543884603",
+        "man_made": "lighthouse",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:group": "3",
+        "seamark:light:1:height": "14",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "59",
+        "seamark:light:1:sector_start": "52",
+        "seamark:light:1:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:group": "3",
+        "seamark:light:2:height": "14",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "6",
+        "seamark:light:2:sector_end": "173",
+        "seamark:light:2:sector_start": "59",
+        "seamark:light:2:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:3:character": "Fl",
+        "seamark:light:3:colour": "green",
+        "seamark:light:3:group": "3",
+        "seamark:light:3:height": "14",
+        "seamark:light:3:period": "12",
+        "seamark:light:3:range": "6",
+        "seamark:light:3:sector_end": "213",
+        "seamark:light:3:sector_start": "173",
+        "seamark:light:3:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:4:character": "Fl",
+        "seamark:light:4:colour": "white",
+        "seamark:light:4:group": "3",
+        "seamark:light:4:height": "14",
+        "seamark:light:4:period": "12",
+        "seamark:light:4:range": "8",
+        "seamark:light:4:sector_end": "220",
+        "seamark:light:4:sector_start": "213",
+        "seamark:light:4:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:5:character": "Fl",
+        "seamark:light:5:colour": "red",
+        "seamark:light:5:group": "3",
+        "seamark:light:5:height": "14",
+        "seamark:light:5:period": "12",
+        "seamark:light:5:range": "6",
+        "seamark:light:5:sector_end": "52",
+        "seamark:light:5:sector_start": "220",
+        "seamark:light:5:sequence": "1+(1.5),1+(1.5),1+(6)",
+        "seamark:light:reference": "A 1760",
+        "seamark:name": "La Corne",
+        "seamark:type": "light_minor",
+        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1768086,
+          48.8557725
+        ]
+      },
+      "id": "node/1543884603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887011",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "red",
+        "seamark:light:group": "2",
+        "seamark:light:height": "4",
+        "seamark:light:period": "6",
+        "seamark:light:range": "9",
+        "seamark:light:reference": "A 1782",
+        "seamark:light:sequence": "1+(1)+1+(3)",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114, 2011-05-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4417977,
+          48.8024485
+        ]
+      },
+      "id": "node/1543887011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887084",
+        "man_made": "lighthouse",
+        "name": "Phare des Triagoz",
+        "name:br": "Tour-tan an Treoger",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "31",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "14",
+        "seamark:light:1:sector_end": "339",
+        "seamark:light:1:sector_start": "10",
+        "seamark:light:1:sequence": "1+(1),1+(3)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "31",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "11",
+        "seamark:light:2:sector_end": "10",
+        "seamark:light:2:sector_start": "339",
+        "seamark:light:2:sequence": "1+(1),1+(3)",
+        "seamark:light:reference": "A 1790",
+        "seamark:name": "Les Triagoz",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26.",
+        "wikipedia": "fr:Phare des Triagoz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6466088,
+          48.8714627
+        ]
+      },
+      "id": "node/1543887084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887146",
+        "seamark:light:1:character": "Iso",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "15",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "5",
+        "seamark:light:1:sector_end": "64",
+        "seamark:light:1:sector_start": "58",
+        "seamark:light:2:character": "Iso",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:height": "15",
+        "seamark:light:2:period": "4",
+        "seamark:light:2:range": "8",
+        "seamark:light:2:sector_end": "69",
+        "seamark:light:2:sector_start": "64",
+        "seamark:light:3:character": "Iso",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:height": "15",
+        "seamark:light:3:period": "4",
+        "seamark:light:3:range": "5",
+        "seamark:light:3:sector_end": "130",
+        "seamark:light:3:sector_start": "69",
+        "seamark:light:reference": "A 1791",
+        "seamark:name": "Pointe de Lan Kerellec",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5843,
+          48.7790667
+        ]
+      },
+      "id": "node/1543887146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887173",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:range": "8",
+        "seamark:light:1:sector_end": "120.5",
+        "seamark:light:1:sector_start": "116",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:range": "12",
+        "seamark:light:2:sector_end": "121.5",
+        "seamark:light:2:sector_start": "120.5",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:range": "8",
+        "seamark:light:3:sector_end": "127",
+        "seamark:light:3:sector_start": "121.5",
+        "seamark:light:height": "39",
+        "seamark:light:reference": "A 1794.1",
+        "seamark:name": "Locquémeau",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.56855,
+          48.7212833
+        ]
+      },
+      "id": "node/1543887173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887205",
+        "man_made": "lighthouse",
+        "name": "Phare de Beg Léguer",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "4",
+        "seamark:light:1:height": "60",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "9",
+        "seamark:light:1:sector_end": "84",
+        "seamark:light:1:sector_start": "7",
+        "seamark:light:1:sequence": "1+(1),1+(1),1+(1),5+(1)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "4",
+        "seamark:light:2:height": "60",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "12",
+        "seamark:light:2:sector_end": "98",
+        "seamark:light:2:sector_start": "84",
+        "seamark:light:2:sequence": "1+(1),1+(1),1+(1),5+(1)",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:group": "4",
+        "seamark:light:3:height": "60",
+        "seamark:light:3:period": "12",
+        "seamark:light:3:range": "9",
+        "seamark:light:3:sector_end": "129",
+        "seamark:light:3:sector_start": "98",
+        "seamark:light:3:sequence": "1+(1),1+(1),1+(1),5+(1)",
+        "seamark:light:reference": "A 1792",
+        "seamark:name": "Bec-Lequer",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.548594,
+          48.7386966
+        ]
+      },
+      "id": "node/1543887205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887271",
+        "seamark:light:category": "upper",
+        "seamark:light:character": "Q",
+        "seamark:light:colour": "red",
+        "seamark:light:height": "56",
+        "seamark:light:range": "7",
+        "seamark:light:reference": "A 1796.1",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8184833,
+          48.70625
+        ]
+      },
+      "id": "node/1543887271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887297",
+        "seamark:light:1:category": "lower",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:height": "35",
+        "seamark:light:1:range": "7",
+        "seamark:light:1:sector_end": "168",
+        "seamark:light:1:sector_start": "134",
+        "seamark:light:reference": "A 1796",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8194667,
+          48.7075167
+        ]
+      },
+      "id": "node/1543887297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887352",
+        "name": "Phare de la Lande",
+        "seamark:light:category": "upper",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "white",
+        "seamark:light:height": "85",
+        "seamark:light:period": "5",
+        "seamark:light:range": "23",
+        "seamark:light:reference": "A 1800",
+        "seamark:light:sequence": "0.3+(4.7)",
+        "seamark:name": "La Lande",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.885395,
+          48.6367771
+        ]
+      },
+      "id": "node/1543887352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887396",
+        "man_made": "lighthouse",
+        "name": "Phare de l'île Louët",
+        "name:br": "Tour-tan Enez Louet",
+        "name:en": "Isle Louët Lighthouse",
+        "seamark:light:1:category": "lower",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "3",
+        "seamark:light:1:height": "17",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "10",
+        "seamark:light:1:sector_end": "305",
+        "seamark:light:1:sector_start": "244",
+        "seamark:light:1:sequence": "1.5+(1.5),1.5+(1.5),4.5+(1.5)",
+        "seamark:light:2:category": "lower",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "3",
+        "seamark:light:2:height": "17",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "15",
+        "seamark:light:2:sector_end": "244",
+        "seamark:light:2:sector_start": "305",
+        "seamark:light:2:sequence": "1.5+(1.5),1.5+(1.5),4.5+(1.5)",
+        "seamark:light:reference": "A 1800.1",
+        "seamark:name": "Île Louët",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 114. 2011-05-26.",
+        "source:name:br": "proper translation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8886975,
+          48.6734864
+        ]
+      },
+      "id": "node/1543887396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887431",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "9",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "10",
+        "seamark:light:1:sector_end": "210",
+        "seamark:light:1:sector_start": "200",
+        "seamark:light:1:sequence": "1+(3)",
+        "seamark:light:2:character": "Fl",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:height": "9",
+        "seamark:light:2:period": "4",
+        "seamark:light:2:range": "7",
+        "seamark:light:2:sector_end": "200",
+        "seamark:light:2:sector_start": "210",
+        "seamark:light:2:sequence": "1+(3)",
+        "seamark:light:reference": "A 1805",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9615833,
+          48.72025
+        ]
+      },
+      "id": "node/1543887431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887777",
+        "seamark:light:1:category": "lower",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "3",
+        "seamark:light:1:height": "7",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "7",
+        "seamark:light:1:sector_end": "318",
+        "seamark:light:1:sector_start": "78",
+        "seamark:light:1:sequence": "1.5+(1.5),1.5+(1.5),4.5+(1.5)",
+        "seamark:light:reference": "A 1812",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9777667,
+          48.7260333
+        ]
+      },
+      "id": "node/1543887777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543887983",
+        "name": "Phare de l'île de Batz",
+        "seamark:information": "Auxiliary light.",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "white",
+        "seamark:light:group": "4",
+        "seamark:light:height": "69",
+        "seamark:light:period": "25",
+        "seamark:light:range": "23",
+        "seamark:light:reference": "A 1816",
+        "seamark:light:sequence": "0.5+(3.6)+0.5+(3.6)+0.5+(3.6)+0.5+(12.2)",
+        "seamark:name": "Île de Batz",
+        "seamark:radio_station:category": "ais",
+        "seamark:radio_station:mmsi": "992271315",
+        "seamark:type": "light_major"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0269037,
+          48.745326
+        ]
+      },
+      "id": "node/1543887983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543888020",
+        "seamark:information": "Visible 142° - 182°",
+        "seamark:light:category": "upper",
+        "seamark:light:character": "Iso",
+        "seamark:light:colour": "green",
+        "seamark:light:height": "22",
+        "seamark:light:period": "4",
+        "seamark:light:range": "7",
+        "seamark:light:reference": "A 1818.1",
+        "seamark:light:visibility": "part_obscured",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0730701,
+          48.6853238
+        ]
+      },
+      "id": "node/1543888020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1543888684",
+        "man_made": "beacon",
+        "name": "Aber Wrac'h",
+        "name:br": "Aber Ac'h",
+        "seamark:light:1:category": "directional",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:group": "2",
+        "seamark:light:1:height": "5",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "11",
+        "seamark:light:1:sector_end": "127.2",
+        "seamark:light:1:sector_start": "125.7",
+        "seamark:light:1:sequence": "1+(1),3+(1)",
+        "seamark:light:2:category": "directional",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "white",
+        "seamark:light:2:group": "2",
+        "seamark:light:2:height": "5",
+        "seamark:light:2:period": "6",
+        "seamark:light:2:range": "13",
+        "seamark:light:2:sector_end": "128.7",
+        "seamark:light:2:sector_start": "127.2",
+        "seamark:light:2:sequence": "1+(1),3+(1)",
+        "seamark:light:3:category": "directional",
+        "seamark:light:3:character": "Oc",
+        "seamark:light:3:colour": "red",
+        "seamark:light:3:group": "2",
+        "seamark:light:3:height": "5",
+        "seamark:light:3:period": "6",
+        "seamark:light:3:range": "11",
+        "seamark:light:3:sector_end": "130.2",
+        "seamark:light:3:sector_start": "128.7",
+        "seamark:light:3:sequence": "1+(1),3+(1)",
+        "seamark:light:reference": "A 1831",
+        "seamark:name": "Aber Wrac'h",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26.",
+        "source:name:br": "ofis publik ar brezhoneg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5634251,
+          48.5982796
+        ]
+      },
+      "id": "node/1543888684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1865624218",
+        "historic": "yes",
+        "man_made": "lighthouse",
+        "name": "Phare de Pontusval",
+        "name:br": "Tour-tan Pontuzval",
+        "name:en": "Lighthouse Pontusval",
+        "seamark:light:1:character": "Oc",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:group": "3",
+        "seamark:light:1:height": "16",
+        "seamark:light:1:period": "12",
+        "seamark:light:1:range": "10",
+        "seamark:light:1:sector_end": "56",
+        "seamark:light:1:sector_start": "96",
+        "seamark:light:1:sequence": "1.5+(1.5),1.5+(1.5),4.5+(1.5)",
+        "seamark:light:2:character": "Oc",
+        "seamark:light:2:colour": "red",
+        "seamark:light:2:group": "3",
+        "seamark:light:2:height": "16",
+        "seamark:light:2:period": "12",
+        "seamark:light:2:range": "7",
+        "seamark:light:2:sector_end": "96",
+        "seamark:light:2:sector_start": "56",
+        "seamark:light:2:sequence": "1.5+(1.5),1.5+(1.5),4.5+(1.5)",
+        "seamark:light:reference": "A 1820",
+        "seamark:name": "Pontusval",
+        "seamark:type": "light_major",
+        "source": "US NGA Pub. 114. 2011-05-26.",
+        "source:name:br": "ofis publik ar brezhoneg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3464225,
+          48.6778678
+        ]
+      },
+      "id": "node/1865624218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1933898581",
+        "man_made": "beacon",
+        "name": "Port-Tudy Est",
+        "name:br": "Porzh Tudi - Reter",
+        "seamark:light:1:character": "Fl",
+        "seamark:light:1:colour": "red",
+        "seamark:light:1:group": "3",
+        "seamark:light:1:height": "11",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:range": "7",
+        "seamark:light:1:sector_end": "226",
+        "seamark:light:1:sector_start": "112",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4463327,
+          47.6446862
+        ]
+      },
+      "id": "node/1933898581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2671649732",
         "seamark:light:character": "Fl",
         "seamark:light:colour": "green",
@@ -2684,6 +5907,66 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3059036252",
+        "height": "9.1",
+        "man_made": "lighthouse",
+        "name": "Phare de Moguériec",
+        "name:br": "Tour-tan Mogerieg",
+        "note": "Feu antérieur",
+        "seamark:light:1:category": "lower",
+        "seamark:light:1:character": "Iso",
+        "seamark:light:1:colour": "white",
+        "seamark:light:1:height": "9",
+        "seamark:light:1:period": "4",
+        "seamark:light:1:range": "11",
+        "seamark:light:1:sector_end": "166",
+        "seamark:light:1:sector_start": "158",
+        "seamark:light:2:category": "lower",
+        "seamark:light:2:character": "Iso",
+        "seamark:light:2:colour": "green",
+        "seamark:light:2:height": "9",
+        "seamark:light:2:period": "4",
+        "seamark:light:2:range": "6",
+        "seamark:light:2:sector_end": "158",
+        "seamark:light:2:sector_start": "166",
+        "seamark:light:reference": "A 1818",
+        "seamark:type": "light_minor",
+        "source": "US NGA Pub. 114. 2011-05-26.",
+        "source:name:br": "proper translation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0748326,
+          48.6891944
+        ]
+      },
+      "id": "node/3059036252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5893507498",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "green",
+        "seamark:light:group": "2",
+        "seamark:light:height": "6",
+        "seamark:light:period": "6",
+        "seamark:name": "Roche Germain",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2091795,
+          47.6499152
+        ]
+      },
+      "id": "node/5893507498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6281938398",
         "man_made": "lighthouse",
         "name": "Mât FENOUX",
@@ -2697,6 +5980,93 @@
         ]
       },
       "id": "node/6281938398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6793206641",
+        "communication:ais": "yes",
+        "communication:microwave": "yes",
+        "height": "20",
+        "historic": "yes",
+        "man_made": "lighthouse",
+        "name": "Phare des Sept-Îles",
+        "name:br": "Tour-tan ar Jentilez",
+        "operator": "CEREMA",
+        "ref:FR:ANFR": "1434820",
+        "ref:mhs": "IA22001257",
+        "seamark:light:character": "Fl",
+        "seamark:light:colour": "white",
+        "seamark:light:group": "3",
+        "seamark:light:height": "59",
+        "seamark:light:period": "15",
+        "seamark:light:range": "44",
+        "seamark:light:reference": "A 1786",
+        "seamark:name": "Ile aux Moines",
+        "seamark:radio_station:category": "ais",
+        "seamark:radio_station:mmsi": "992271326",
+        "seamark:source": "US NGA Pub. 114. 2011-05-26",
+        "seamark:type": "light_major",
+        "source:name:br": "proper translation",
+        "tower:type": "communication",
+        "wikidata": "Q2085033",
+        "wikipedia": "fr:Phare des Sept-Îles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4899835,
+          48.8787229
+        ]
+      },
+      "id": "node/6793206641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8220010584",
+        "seamark:light:1:category": "front",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "25",
+        "seamark:light:1:range": "13",
+        "seamark:light:1:sector_end": "351",
+        "seamark:light:1:sector_start": "349",
+        "seamark:light:1:visibility": "intensified",
+        "seamark:type": "light_major"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3675362,
+          47.7267142
+        ]
+      },
+      "id": "node/8220010584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8220010585",
+        "ref:admiralty": "D0990.1",
+        "ref:nga": "113-604",
+        "seamark:light:1:category": "rear",
+        "seamark:light:1:character": "Q",
+        "seamark:light:1:colour": "green",
+        "seamark:light:1:height": "32",
+        "seamark:light:1:period": "6",
+        "seamark:light:1:sector_end": "351",
+        "seamark:light:1:sector_start": "349",
+        "seamark:type": "light_minor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3677588,
+          47.7275707
+        ]
+      },
+      "id": "node/8220010585"
     },
     {
       "type": "Feature",

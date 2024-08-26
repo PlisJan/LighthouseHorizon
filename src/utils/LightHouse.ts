@@ -41,7 +41,7 @@ export class Lighthouse {
         min: 0,
         max: 360,
         color: geoJson.properties['seamark:light:colour'] as 'red' | 'white' | 'green' | undefined,
-        sequence: geoJson.properties['seamark:light:sequence']
+        sequence: generateSequence(geoJson.properties, `seamark:light`)
       })
     }
 
@@ -64,8 +64,7 @@ export class Lighthouse {
         color: geoJson.properties[
           `seamark:light:${i}:colour` as keyof typeof geoJson.properties
         ] as 'red' | 'white' | 'green' | undefined,
-        sequence:
-          geoJson.properties[`seamark:light:${i}:sequence` as keyof typeof geoJson.properties]
+        sequence: generateSequence(geoJson.properties, `seamark:light:${i}`)
       })
       i++
     }
@@ -99,6 +98,26 @@ interface Sector {
   sequence: string | undefined
   brightIntervals?: number[]
   darkIntervals?: number[]
+}
+
+function generateSequence(properties: any, baseKeyString: string) {
+  if (
+    properties[`${baseKeyString}:sequence`] != undefined &&
+    properties[`${baseKeyString}:sequence`].length > 0
+  ) {
+    return properties[`${baseKeyString}:sequence`]
+  }
+  if (properties[`${baseKeyString}:character`] == 'Q') {
+    return '0.2+(0.6)'
+  }
+  if (properties[`${baseKeyString}:character`] == 'Fl') {
+    const period = properties[`${baseKeyString}:period`]
+    return `0.2+(${period - 0.2})`
+  }
+  if (properties[`${baseKeyString}:character`] == 'Iso') {
+    const period = properties[`${baseKeyString}:period`]
+    return `${period / 2}+(${period / 2})`
+  }
 }
 
 export function sequence2Animation(sequence: string): {
