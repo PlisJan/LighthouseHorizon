@@ -74,7 +74,7 @@ const lightHouses = computed(() =>
         </div>
         <LightPoint
           :color="lightHouse.getSectorByViewingPosition(myPos)?.color"
-          :dark-intervals="lightHouse.getSectorByViewingPosition(myPos)?.darkIntervals || [100]"
+          :dark-intervals="lightHouse.getSectorByViewingPosition(myPos)?.darkIntervals || [0]"
           :light-intervals="lightHouse.getSectorByViewingPosition(myPos)?.brightIntervals || [100]"
         />
       </div>
