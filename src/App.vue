@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { computed, nextTick, onMounted, ref, watch } from 'vue'
-import { useDraggable } from '@vueuse/core'
+import { computed, ref, watch } from 'vue'
+import { useDraggable, useScroll } from '@vueuse/core'
 //@ts-ignore
 import phareGeoJson from '../phares.json'
 import { Position } from './utils/Position'
-import { Lighthouse, sequence2Animation } from './utils/LightHouse'
+import { Lighthouse } from './utils/LightHouse'
 import LightPoint from './components/LightPoint.vue'
 
 const el = ref<HTMLElement | null>(null)
@@ -16,12 +16,13 @@ const posInputs = ref<{ lat: number; lon: number }>({
 
 const movedM = ref(0)
 // `style` will be a helper computed for `left: ?px; top: ?px;`
-const { x, y, style } = useDraggable(el, {
+const { x } = useDraggable(el, {
   initialValue: { x: 40, y: 40 }
 })
 
 watch(x, (newX) => {
-  movedM.value += newX
+  const elemWidth = el.value?.clientWidth ?? 0
+  x.value = Math.max(Math.min(newX, 0), -(elemWidth - (elemWidth / 360) * 100))
 })
 
 const myPos = ref<Position>(new Position(posInputs.value.lat, posInputs.value.lon))
@@ -41,7 +42,13 @@ const lightHouses = computed(() =>
 
 <template>
   <main>
-    <div ref="el" :style="{ left: x + 'px' }" style="position: fixed" class="horizon">
+    <div
+      ref="el"
+      :style="{ left: x + 'px' }"
+      style="position: fixed"
+      class="horizon"
+      @wheel="(v) => (x += v.deltaY - v.deltaX)"
+    >
       <div class="navbar">
         <span v-for="i in 36" :key="i" class="coords">{{ ((i - 1) * 10 + 180) % 360 }}<br />|</span>
       </div>
@@ -146,6 +153,7 @@ footer input[type='number'] {
   height: 100svh;
   background-color: #050022;
   overflow: hidden;
+  cursor: all-scroll;
 }
 
 .coords {

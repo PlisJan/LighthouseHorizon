@@ -124,14 +124,14 @@ export function sequence2Animation(sequence: string): {
   brightIntervals: number[]
   darkIntervals: number[]
 } {
-  let darkIntervals: number[] = []
+  const darkIntervals: number[] = []
   let brightIntervals: number[] = []
 
-  for (var br of sequence.matchAll(/\(([\d\.]+)\)/g)) {
+  for (const br of sequence.matchAll(/\(([\d.]+)\)/g)) {
     darkIntervals.push(parseFloat(br[1]))
   }
   sequence = sequence
-    .replace(/\(([\d\.]+)\)/g, '')
+    .replace(/\(([\d.]+)\)/g, '')
     .replace(/,/g, '+') // replace , with +
     .replace('++', '+')
     .replace('++', '+') // remove double plusses
